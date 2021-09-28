@@ -38,8 +38,10 @@ for lt, ln, el, volc in zip(lat, lon, elev, volc_name):
     # add markers to map
     fg.add_child(folium.Marker(location=[lt,ln] , popup=folium.Popup(iframe), icon=folium.Icon(color=elevation(el), icon="glyphicon-fire")))
 
-# polgon layer
-fg.add_child(folium.GeoJson(data=(open('Webmap_datasources/world.json', 'r', encoding='utf-8-sig').read())))
+# polgon layer with color check for pop
+fg.add_child(folium.GeoJson(data=open('Webmap_datasources/world.json', 'r', encoding='utf-8-sig').read(),
+style_function=lambda x: {'fillColor': 'yellow' if x['properties']['POP2005'] < 10000000
+else 'orange' if 100000000 <= x['properties']['POP2005'] < 20000000 else 'red'}))
 
 map.add_child(fg)
 
