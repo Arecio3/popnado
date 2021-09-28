@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_0962f38f2408489da61bb2f3b8011927 {
+                #map_7522cf202d95487198983fb5c40b57b4 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_0962f38f2408489da61bb2f3b8011927" ></div>
+            <div class="folium-map" id="map_7522cf202d95487198983fb5c40b57b4" ></div>
         
 </body>
 <script>    
     
-            var map_0962f38f2408489da61bb2f3b8011927 = L.map(
-                "map_0962f38f2408489da61bb2f3b8011927",
+            var map_7522cf202d95487198983fb5c40b57b4 = L.map(
+                "map_7522cf202d95487198983fb5c40b57b4",
                 {
                     center: [28.01381155418516, -82.56964496261388],
                     crs: L.CRS.EPSG3857,
@@ -55,37 +55,1562 @@
 
         
     
-            var tile_layer_2ee3f4a4fd3a48b9af566e0ca413b090 = L.tileLayer(
+            var tile_layer_3ed13be7acaa4b5cb421a9b157c66860 = L.tileLayer(
                 "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
                 {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_0962f38f2408489da61bb2f3b8011927);
+            ).addTo(map_7522cf202d95487198983fb5c40b57b4);
         
     
-            var feature_group_287fcc93dd7e47eebcac8b34e2e1d7f8 = L.featureGroup(
+            var feature_group_18d095520c0942e390ec8c856a1e62a8 = L.featureGroup(
                 {}
-            ).addTo(map_0962f38f2408489da61bb2f3b8011927);
+            ).addTo(map_7522cf202d95487198983fb5c40b57b4);
         
     
-            var marker_42bb0acae21949c18739724522dcd70a = L.marker(
-                [28.01381155418516, -82.56964496261388],
+            var marker_725f8f5361254317843ac9d8530ab8c5 = L.marker(
+                [48.7767982, -121.810997],
                 {}
-            ).addTo(feature_group_287fcc93dd7e47eebcac8b34e2e1d7f8);
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
         
     
-            var icon_4a9a59ced6cd47dbb86d1d72ae75acc3 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            var icon_c4048c9cc7504ae589864f128e96decc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_42bb0acae21949c18739724522dcd70a.setIcon(icon_4a9a59ced6cd47dbb86d1d72ae75acc3);
+            marker_725f8f5361254317843ac9d8530ab8c5.setIcon(icon_c4048c9cc7504ae589864f128e96decc);
         
     
-        var popup_fb9b1ad9241e4d08818d6791348dd332 = L.popup({"maxWidth": "100%"});
+        var popup_48537a641d6f45c69beef999f029ea49 = L.popup({"maxWidth": "100%"});
 
         
-            var html_344e0ce5dc1742268bc41f00e9060e36 = $(`<div id="html_344e0ce5dc1742268bc41f00e9060e36" style="width: 100.0%; height: 100.0%;">Hey there im a marker</div>`)[0];
-            popup_fb9b1ad9241e4d08818d6791348dd332.setContent(html_344e0ce5dc1742268bc41f00e9060e36);
+            var html_693a931e8fc34a59ac180bca0bbf02ae = $(`<div id="html_693a931e8fc34a59ac180bca0bbf02ae" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_48537a641d6f45c69beef999f029ea49.setContent(html_693a931e8fc34a59ac180bca0bbf02ae);
         
 
-        marker_42bb0acae21949c18739724522dcd70a.bindPopup(popup_fb9b1ad9241e4d08818d6791348dd332)
+        marker_725f8f5361254317843ac9d8530ab8c5.bindPopup(popup_48537a641d6f45c69beef999f029ea49)
+        ;
+
+        
+    
+    
+            var marker_266da717c3f746898c4ce73b3089f724 = L.marker(
+                [48.1118011, -121.1110001],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_d1cdfc2d9ef64c148ed5d87a68e2fc67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_266da717c3f746898c4ce73b3089f724.setIcon(icon_d1cdfc2d9ef64c148ed5d87a68e2fc67);
+        
+    
+        var popup_5ee2de88fe4e46ae81aecc8ccbbfb7ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12aeac1a2b87458ba6f2124eab09a721 = $(`<div id="html_12aeac1a2b87458ba6f2124eab09a721" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_5ee2de88fe4e46ae81aecc8ccbbfb7ff.setContent(html_12aeac1a2b87458ba6f2124eab09a721);
+        
+
+        marker_266da717c3f746898c4ce73b3089f724.bindPopup(popup_5ee2de88fe4e46ae81aecc8ccbbfb7ff)
+        ;
+
+        
+    
+    
+            var marker_6737d32fdd494a2395ea3e6a8fe057bc = L.marker(
+                [46.8698006, -121.7509995],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_eb06602563ea475ca5fe1d96f786b234 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6737d32fdd494a2395ea3e6a8fe057bc.setIcon(icon_eb06602563ea475ca5fe1d96f786b234);
+        
+    
+        var popup_0e02f56f857f475c9ea7d460d5050be3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01dc4c4f415c405db51c2d796569b558 = $(`<div id="html_01dc4c4f415c405db51c2d796569b558" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_0e02f56f857f475c9ea7d460d5050be3.setContent(html_01dc4c4f415c405db51c2d796569b558);
+        
+
+        marker_6737d32fdd494a2395ea3e6a8fe057bc.bindPopup(popup_0e02f56f857f475c9ea7d460d5050be3)
+        ;
+
+        
+    
+    
+            var marker_64be2e69239548e0ad13a44d60958c33 = L.marker(
+                [46.1997986, -122.1809998],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_3903f22c858f4d9eae8f77cb3b5826f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64be2e69239548e0ad13a44d60958c33.setIcon(icon_3903f22c858f4d9eae8f77cb3b5826f0);
+        
+    
+        var popup_9325fdca78ef4019bf2907102c501638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a8a423240d94b73bffd6b03013e06c4 = $(`<div id="html_1a8a423240d94b73bffd6b03013e06c4" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_9325fdca78ef4019bf2907102c501638.setContent(html_1a8a423240d94b73bffd6b03013e06c4);
+        
+
+        marker_64be2e69239548e0ad13a44d60958c33.bindPopup(popup_9325fdca78ef4019bf2907102c501638)
+        ;
+
+        
+    
+    
+            var marker_2856f3e0deb6441b83681d633620bf03 = L.marker(
+                [46.2057991, -121.4909973],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_207375591d554abd9151f679434ca36c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2856f3e0deb6441b83681d633620bf03.setIcon(icon_207375591d554abd9151f679434ca36c);
+        
+    
+        var popup_b15da97cb95c409fbc7fdf6673d81ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10a8c852b6ec4592a9a92e2f60c437d4 = $(`<div id="html_10a8c852b6ec4592a9a92e2f60c437d4" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_b15da97cb95c409fbc7fdf6673d81ac8.setContent(html_10a8c852b6ec4592a9a92e2f60c437d4);
+        
+
+        marker_2856f3e0deb6441b83681d633620bf03.bindPopup(popup_b15da97cb95c409fbc7fdf6673d81ac8)
+        ;
+
+        
+    
+    
+            var marker_0a48a651b2084a22b89c818a3443df68 = L.marker(
+                [45.8797989, -122.0810013],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_e8962c1110cf43a89e27430ba1e85836 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a48a651b2084a22b89c818a3443df68.setIcon(icon_e8962c1110cf43a89e27430ba1e85836);
+        
+    
+        var popup_55f6a24b457a426abc6f9ae5c218809a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80e475e3d1a74d5a9323dd903cac9348 = $(`<div id="html_80e475e3d1a74d5a9323dd903cac9348" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_55f6a24b457a426abc6f9ae5c218809a.setContent(html_80e475e3d1a74d5a9323dd903cac9348);
+        
+
+        marker_0a48a651b2084a22b89c818a3443df68.bindPopup(popup_55f6a24b457a426abc6f9ae5c218809a)
+        ;
+
+        
+    
+    
+            var marker_f62b282d552f42dbab70fba9e38415b5 = L.marker(
+                [45.9297981, -121.8209991],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_213cf1e16135471da5a5735d6cebfe5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f62b282d552f42dbab70fba9e38415b5.setIcon(icon_213cf1e16135471da5a5735d6cebfe5c);
+        
+    
+        var popup_462076a71fe24bc6825b503dde00c9ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f27e8e672d50442494d757ae41bbc362 = $(`<div id="html_f27e8e672d50442494d757ae41bbc362" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_462076a71fe24bc6825b503dde00c9ec.setContent(html_f27e8e672d50442494d757ae41bbc362);
+        
+
+        marker_f62b282d552f42dbab70fba9e38415b5.bindPopup(popup_462076a71fe24bc6825b503dde00c9ec)
+        ;
+
+        
+    
+    
+            var marker_f55fdba76fc145c6989e4fb7e710912f = L.marker(
+                [45.3737984, -121.6910019],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_56b9259f84cc4c1f8861d9a54fb09e75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f55fdba76fc145c6989e4fb7e710912f.setIcon(icon_56b9259f84cc4c1f8861d9a54fb09e75);
+        
+    
+        var popup_f7cbeb0396314f0a88369c44a63281ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dda631159e1d41dabaa8d1b26c41a348 = $(`<div id="html_dda631159e1d41dabaa8d1b26c41a348" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_f7cbeb0396314f0a88369c44a63281ae.setContent(html_dda631159e1d41dabaa8d1b26c41a348);
+        
+
+        marker_f55fdba76fc145c6989e4fb7e710912f.bindPopup(popup_f7cbeb0396314f0a88369c44a63281ae)
+        ;
+
+        
+    
+    
+            var marker_187b5d25ece044d6ac3b48d05b2f8388 = L.marker(
+                [44.6917992, -121.8010025],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_08fa218fc13c46849a5ea94b1f45c557 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_187b5d25ece044d6ac3b48d05b2f8388.setIcon(icon_08fa218fc13c46849a5ea94b1f45c557);
+        
+    
+        var popup_63db960d27ab42b58020e07e994d4d4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99842b4ca0b74fd68d45ccb684364fc7 = $(`<div id="html_99842b4ca0b74fd68d45ccb684364fc7" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_63db960d27ab42b58020e07e994d4d4a.setContent(html_99842b4ca0b74fd68d45ccb684364fc7);
+        
+
+        marker_187b5d25ece044d6ac3b48d05b2f8388.bindPopup(popup_63db960d27ab42b58020e07e994d4d4a)
+        ;
+
+        
+    
+    
+            var marker_73e901da288947968fe5d80600fdbd7d = L.marker(
+                [44.4197998, -121.7710037],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_b0bc9ddb7aab45839831ed0423af3118 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73e901da288947968fe5d80600fdbd7d.setIcon(icon_b0bc9ddb7aab45839831ed0423af3118);
+        
+    
+        var popup_a538088cff2f4064adb25dc1179334bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1470b385bf4444c99dcebf0f326ce03e = $(`<div id="html_1470b385bf4444c99dcebf0f326ce03e" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_a538088cff2f4064adb25dc1179334bd.setContent(html_1470b385bf4444c99dcebf0f326ce03e);
+        
+
+        marker_73e901da288947968fe5d80600fdbd7d.bindPopup(popup_a538088cff2f4064adb25dc1179334bd)
+        ;
+
+        
+    
+    
+            var marker_b78335b486434c8d885c77d7b4ee4567 = L.marker(
+                [44.3797989, -121.9309998],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_0530316946e94439a7e001d03924b114 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b78335b486434c8d885c77d7b4ee4567.setIcon(icon_0530316946e94439a7e001d03924b114);
+        
+    
+        var popup_d2430e31867e43e4b313d89d594a7a80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c9b17a0d0174a8bb9e7dd011c3b15de = $(`<div id="html_6c9b17a0d0174a8bb9e7dd011c3b15de" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_d2430e31867e43e4b313d89d594a7a80.setContent(html_6c9b17a0d0174a8bb9e7dd011c3b15de);
+        
+
+        marker_b78335b486434c8d885c77d7b4ee4567.bindPopup(popup_d2430e31867e43e4b313d89d594a7a80)
+        ;
+
+        
+    
+    
+            var marker_ed5f3bc6ce1649c5a9a30765485741d3 = L.marker(
+                [44.3317986, -121.8310013],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_a1ebe9f36e5942fba9e174f53d09d28d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed5f3bc6ce1649c5a9a30765485741d3.setIcon(icon_a1ebe9f36e5942fba9e174f53d09d28d);
+        
+    
+        var popup_0e2af253f89c463a8f0efc9915535db0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d997bc5cdd4458aa0874f3a1c087be7 = $(`<div id="html_5d997bc5cdd4458aa0874f3a1c087be7" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_0e2af253f89c463a8f0efc9915535db0.setContent(html_5d997bc5cdd4458aa0874f3a1c087be7);
+        
+
+        marker_ed5f3bc6ce1649c5a9a30765485741d3.bindPopup(popup_0e2af253f89c463a8f0efc9915535db0)
+        ;
+
+        
+    
+    
+            var marker_fd6bbc87aab542c1838da2f8eef43b7e = L.marker(
+                [44.2848015, -121.8410034],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_5bd27a02fb694be39b647ed32370ac2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd6bbc87aab542c1838da2f8eef43b7e.setIcon(icon_5bd27a02fb694be39b647ed32370ac2d);
+        
+    
+        var popup_73de09d94b9f40d88b744b5b6b2c573b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f63d464936734124962ab3e8344dbf1f = $(`<div id="html_f63d464936734124962ab3e8344dbf1f" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_73de09d94b9f40d88b744b5b6b2c573b.setContent(html_f63d464936734124962ab3e8344dbf1f);
+        
+
+        marker_fd6bbc87aab542c1838da2f8eef43b7e.bindPopup(popup_73de09d94b9f40d88b744b5b6b2c573b)
+        ;
+
+        
+    
+    
+            var marker_d165f7af6cfe4726b855a01ed4bcd10e = L.marker(
+                [44.1697998, -121.7710037],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_daa2c08865664900a1d92049973f11a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d165f7af6cfe4726b855a01ed4bcd10e.setIcon(icon_daa2c08865664900a1d92049973f11a0);
+        
+    
+        var popup_696b7855e0514ec68199c456c6383b01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c135ea056f6e4042b235cdfad5077daa = $(`<div id="html_c135ea056f6e4042b235cdfad5077daa" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_696b7855e0514ec68199c456c6383b01.setContent(html_c135ea056f6e4042b235cdfad5077daa);
+        
+
+        marker_d165f7af6cfe4726b855a01ed4bcd10e.bindPopup(popup_696b7855e0514ec68199c456c6383b01)
+        ;
+
+        
+    
+    
+            var marker_c57b13843e684c458bc85e3d5bd1e9d5 = L.marker(
+                [44.0998001, -121.7710037],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_1aae10146d5c4c5cbcf1491a81f0156f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c57b13843e684c458bc85e3d5bd1e9d5.setIcon(icon_1aae10146d5c4c5cbcf1491a81f0156f);
+        
+    
+        var popup_215710abb99942aaa1d76046c1304412 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1ea8ed2c8d247c4820de09d789d2d31 = $(`<div id="html_b1ea8ed2c8d247c4820de09d789d2d31" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_215710abb99942aaa1d76046c1304412.setContent(html_b1ea8ed2c8d247c4820de09d789d2d31);
+        
+
+        marker_c57b13843e684c458bc85e3d5bd1e9d5.bindPopup(popup_215710abb99942aaa1d76046c1304412)
+        ;
+
+        
+    
+    
+            var marker_ff8c964c68c04aec94e0c67c18b71bd2 = L.marker(
+                [43.9788017, -121.6809998],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_9b3739fabd2143f3a5126a8fbe14a578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff8c964c68c04aec94e0c67c18b71bd2.setIcon(icon_9b3739fabd2143f3a5126a8fbe14a578);
+        
+    
+        var popup_8e33fc51ffb8402d997fea034091cb69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6fc5738266d4e2fa1e410c279883374 = $(`<div id="html_b6fc5738266d4e2fa1e410c279883374" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_8e33fc51ffb8402d997fea034091cb69.setContent(html_b6fc5738266d4e2fa1e410c279883374);
+        
+
+        marker_ff8c964c68c04aec94e0c67c18b71bd2.bindPopup(popup_8e33fc51ffb8402d997fea034091cb69)
+        ;
+
+        
+    
+    
+            var marker_448eedadf9004c2791a427cb8cf09e54 = L.marker(
+                [43.7218018, -121.2210007],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_fbf676428ccb489a93fac515778d79d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_448eedadf9004c2791a427cb8cf09e54.setIcon(icon_fbf676428ccb489a93fac515778d79d2);
+        
+    
+        var popup_1bfd282292404cb3aedb3e0252cc31d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d54fd872d3c744229d8e88c360cfa31a = $(`<div id="html_d54fd872d3c744229d8e88c360cfa31a" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_1bfd282292404cb3aedb3e0252cc31d0.setContent(html_d54fd872d3c744229d8e88c360cfa31a);
+        
+
+        marker_448eedadf9004c2791a427cb8cf09e54.bindPopup(popup_1bfd282292404cb3aedb3e0252cc31d0)
+        ;
+
+        
+    
+    
+            var marker_49a883cca6d44865ae09e48acb351e5e = L.marker(
+                [43.5698013, -121.8209991],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_6439000ba9c647868ee0439eab18c0e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49a883cca6d44865ae09e48acb351e5e.setIcon(icon_6439000ba9c647868ee0439eab18c0e9);
+        
+    
+        var popup_d7bda32f164b48ae8dee01487dc7d8f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ea45c19b17e4c5cba350f29d7559054 = $(`<div id="html_7ea45c19b17e4c5cba350f29d7559054" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_d7bda32f164b48ae8dee01487dc7d8f0.setContent(html_7ea45c19b17e4c5cba350f29d7559054);
+        
+
+        marker_49a883cca6d44865ae09e48acb351e5e.bindPopup(popup_d7bda32f164b48ae8dee01487dc7d8f0)
+        ;
+
+        
+    
+    
+            var marker_756a24e05be94d719b99ae1184aca99a = L.marker(
+                [43.5119019, -120.8610001],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_6d5b8afea55242c38d7c31504ad018f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_756a24e05be94d719b99ae1184aca99a.setIcon(icon_6d5b8afea55242c38d7c31504ad018f5);
+        
+    
+        var popup_0c471a2d31fd43a7adce466caf585bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33525747a1c8446a8315071f2f983e87 = $(`<div id="html_33525747a1c8446a8315071f2f983e87" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_0c471a2d31fd43a7adce466caf585bd0.setContent(html_33525747a1c8446a8315071f2f983e87);
+        
+
+        marker_756a24e05be94d719b99ae1184aca99a.bindPopup(popup_0c471a2d31fd43a7adce466caf585bd0)
+        ;
+
+        
+    
+    
+            var marker_b882e4039eb14415b97dc7f9cf5bda78 = L.marker(
+                [43.240799, -122.1009979],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_73eb2fcf795640f5a6c2333b07c08d32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b882e4039eb14415b97dc7f9cf5bda78.setIcon(icon_73eb2fcf795640f5a6c2333b07c08d32);
+        
+    
+        var popup_623e458fa3594c3a88d3838be0f85ee5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b4eef0cb23f44c2afdb716b1d23300f = $(`<div id="html_6b4eef0cb23f44c2afdb716b1d23300f" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_623e458fa3594c3a88d3838be0f85ee5.setContent(html_6b4eef0cb23f44c2afdb716b1d23300f);
+        
+
+        marker_b882e4039eb14415b97dc7f9cf5bda78.bindPopup(popup_623e458fa3594c3a88d3838be0f85ee5)
+        ;
+
+        
+    
+    
+            var marker_adb4f0530e5a42388840204bdb001132 = L.marker(
+                [43.4719009, -120.7509995],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_c28f10826008441d9ce75dca223f0053 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_adb4f0530e5a42388840204bdb001132.setIcon(icon_c28f10826008441d9ce75dca223f0053);
+        
+    
+        var popup_cb2cc9eb79ee4e5590c23def3b70664e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aed89646580430497815aa8ba03445b = $(`<div id="html_9aed89646580430497815aa8ba03445b" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_cb2cc9eb79ee4e5590c23def3b70664e.setContent(html_9aed89646580430497815aa8ba03445b);
+        
+
+        marker_adb4f0530e5a42388840204bdb001132.bindPopup(popup_cb2cc9eb79ee4e5590c23def3b70664e)
+        ;
+
+        
+    
+    
+            var marker_92066e45394747a1803204927a44419b = L.marker(
+                [43.3609009, -120.6610031],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_3161f878f7d84a41ae4ad3981e1282cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92066e45394747a1803204927a44419b.setIcon(icon_3161f878f7d84a41ae4ad3981e1282cc);
+        
+    
+        var popup_8a2be18390564152b735102851c4e470 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dabb28bf0e4841f99b103e3835d7fa2c = $(`<div id="html_dabb28bf0e4841f99b103e3835d7fa2c" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_8a2be18390564152b735102851c4e470.setContent(html_dabb28bf0e4841f99b103e3835d7fa2c);
+        
+
+        marker_92066e45394747a1803204927a44419b.bindPopup(popup_8a2be18390564152b735102851c4e470)
+        ;
+
+        
+    
+    
+            var marker_667343ea4cff4d4aa6ed9a13aac33371 = L.marker(
+                [42.9299011, -122.1210022],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_faf63eeaa2a949119754e4310ef70e0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_667343ea4cff4d4aa6ed9a13aac33371.setIcon(icon_faf63eeaa2a949119754e4310ef70e0c);
+        
+    
+        var popup_0fff688268ab4845b1b4bfcc10558efc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83b7af762e834027817ae8c6855e32f6 = $(`<div id="html_83b7af762e834027817ae8c6855e32f6" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_0fff688268ab4845b1b4bfcc10558efc.setContent(html_83b7af762e834027817ae8c6855e32f6);
+        
+
+        marker_667343ea4cff4d4aa6ed9a13aac33371.bindPopup(popup_0fff688268ab4845b1b4bfcc10558efc)
+        ;
+
+        
+    
+    
+            var marker_956300f0584f4134a9247fcd45b8c1d2 = L.marker(
+                [44.4299011, -110.6709976],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_1123d5eb445342d1a297de666c676c48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_956300f0584f4134a9247fcd45b8c1d2.setIcon(icon_1123d5eb445342d1a297de666c676c48);
+        
+    
+        var popup_8395bb2c5ade4bdeafc0b9788fcb023d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46441294c1a44317966c10d444a64ab8 = $(`<div id="html_46441294c1a44317966c10d444a64ab8" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_8395bb2c5ade4bdeafc0b9788fcb023d.setContent(html_46441294c1a44317966c10d444a64ab8);
+        
+
+        marker_956300f0584f4134a9247fcd45b8c1d2.bindPopup(popup_8395bb2c5ade4bdeafc0b9788fcb023d)
+        ;
+
+        
+    
+    
+            var marker_ad15074f74024c7cb85a21a49e3f7610 = L.marker(
+                [43.0998993, -118.7509995],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_8ad36607d91046f98b84c81edb112382 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad15074f74024c7cb85a21a49e3f7610.setIcon(icon_8ad36607d91046f98b84c81edb112382);
+        
+    
+        var popup_c2c52d9b7c6d49b9b7b8e0c6e151f43d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff2b058269ac40b0985c365935dde592 = $(`<div id="html_ff2b058269ac40b0985c365935dde592" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_c2c52d9b7c6d49b9b7b8e0c6e151f43d.setContent(html_ff2b058269ac40b0985c365935dde592);
+        
+
+        marker_ad15074f74024c7cb85a21a49e3f7610.bindPopup(popup_c2c52d9b7c6d49b9b7b8e0c6e151f43d)
+        ;
+
+        
+    
+    
+            var marker_620c2fa070714ef8a7898d487545293a = L.marker(
+                [43.1498985, -117.4710007],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_07d4a50073984f0699519d0c797a2938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_620c2fa070714ef8a7898d487545293a.setIcon(icon_07d4a50073984f0699519d0c797a2938);
+        
+    
+        var popup_7afbdb50dded4369879a986b8df4a193 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3a3c030dbd24dd58875accc63c97825 = $(`<div id="html_f3a3c030dbd24dd58875accc63c97825" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_7afbdb50dded4369879a986b8df4a193.setContent(html_f3a3c030dbd24dd58875accc63c97825);
+        
+
+        marker_620c2fa070714ef8a7898d487545293a.bindPopup(popup_7afbdb50dded4369879a986b8df4a193)
+        ;
+
+        
+    
+    
+            var marker_a327517af3a54fbda22ed675766f25eb = L.marker(
+                [42.9999008, -117.8010025],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_9c258105bb924c8081773c61d3bbc313 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a327517af3a54fbda22ed675766f25eb.setIcon(icon_9c258105bb924c8081773c61d3bbc313);
+        
+    
+        var popup_076d50c71c74476690f2bcfc54543932 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5084da9f4baa42849f305bae970f3115 = $(`<div id="html_5084da9f4baa42849f305bae970f3115" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_076d50c71c74476690f2bcfc54543932.setContent(html_5084da9f4baa42849f305bae970f3115);
+        
+
+        marker_a327517af3a54fbda22ed675766f25eb.bindPopup(popup_076d50c71c74476690f2bcfc54543932)
+        ;
+
+        
+    
+    
+            var marker_cf76075b1025411a853066b5b51a3182 = L.marker(
+                [43.419899, -113.5009995],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_2f9f8c4618b14074b91b956cb9ea319c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf76075b1025411a853066b5b51a3182.setIcon(icon_2f9f8c4618b14074b91b956cb9ea319c);
+        
+    
+        var popup_c12e868719f24d6083afdb52fac99fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_594fc557bb7645a9b763800fecaa7da0 = $(`<div id="html_594fc557bb7645a9b763800fecaa7da0" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_c12e868719f24d6083afdb52fac99fb5.setContent(html_594fc557bb7645a9b763800fecaa7da0);
+        
+
+        marker_cf76075b1025411a853066b5b51a3182.bindPopup(popup_c12e868719f24d6083afdb52fac99fb5)
+        ;
+
+        
+    
+    
+            var marker_0f42b208192247e392011a482ee5db24 = L.marker(
+                [43.4999008, -112.4509964],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_f8473df12740488ca480077c351517f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f42b208192247e392011a482ee5db24.setIcon(icon_f8473df12740488ca480077c351517f1);
+        
+    
+        var popup_b82c5b396f034607a514993be0412990 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38177bf87ec9465c93e79583bb276dcb = $(`<div id="html_38177bf87ec9465c93e79583bb276dcb" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_b82c5b396f034607a514993be0412990.setContent(html_38177bf87ec9465c93e79583bb276dcb);
+        
+
+        marker_0f42b208192247e392011a482ee5db24.bindPopup(popup_b82c5b396f034607a514993be0412990)
+        ;
+
+        
+    
+    
+            var marker_832c0f5d535249fa9e40159c58b27486 = L.marker(
+                [43.1799011, -114.3509979],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_cd8dcddff2f74fc88a7552a19703a5c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_832c0f5d535249fa9e40159c58b27486.setIcon(icon_cd8dcddff2f74fc88a7552a19703a5c0);
+        
+    
+        var popup_c30917a7db904acead6bb6ed10ffa907 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_239ef8de67234bda9311a0bcf1b7412d = $(`<div id="html_239ef8de67234bda9311a0bcf1b7412d" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_c30917a7db904acead6bb6ed10ffa907.setContent(html_239ef8de67234bda9311a0bcf1b7412d);
+        
+
+        marker_832c0f5d535249fa9e40159c58b27486.bindPopup(popup_c30917a7db904acead6bb6ed10ffa907)
+        ;
+
+        
+    
+    
+            var marker_e804fbaaa29a4589a8638c2b8574cb57 = L.marker(
+                [42.6058998, -117.5810013],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_a5a20a0e1f7847e08cc361e7142ab30e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e804fbaaa29a4589a8638c2b8574cb57.setIcon(icon_a5a20a0e1f7847e08cc361e7142ab30e);
+        
+    
+        var popup_bc3c6dbfbd93437aa7cc813a5e0aba8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db817210e6524c29a95857eeef73e2db = $(`<div id="html_db817210e6524c29a95857eeef73e2db" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_bc3c6dbfbd93437aa7cc813a5e0aba8d.setContent(html_db817210e6524c29a95857eeef73e2db);
+        
+
+        marker_e804fbaaa29a4589a8638c2b8574cb57.bindPopup(popup_bc3c6dbfbd93437aa7cc813a5e0aba8d)
+        ;
+
+        
+    
+    
+            var marker_9f08ce239c254518bbe303d9ea3b358e = L.marker(
+                [41.5798988, -121.5709991],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_3c235cb94b524386a3f98ed9830608a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f08ce239c254518bbe303d9ea3b358e.setIcon(icon_3c235cb94b524386a3f98ed9830608a0);
+        
+    
+        var popup_86e11346751e4147ad1a5825bed952a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_171a2bd03c294e80bc8174d61fc1c35f = $(`<div id="html_171a2bd03c294e80bc8174d61fc1c35f" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_86e11346751e4147ad1a5825bed952a0.setContent(html_171a2bd03c294e80bc8174d61fc1c35f);
+        
+
+        marker_9f08ce239c254518bbe303d9ea3b358e.bindPopup(popup_86e11346751e4147ad1a5825bed952a0)
+        ;
+
+        
+    
+    
+            var marker_eed8dad10cf94da1a952b27c17e48c0f = L.marker(
+                [42.8799019, -113.2210007],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_9443c8889ef34da4812d938f8328d1f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eed8dad10cf94da1a952b27c17e48c0f.setIcon(icon_9443c8889ef34da4812d938f8328d1f2);
+        
+    
+        var popup_834b4ec13ace4fc7999f83f2b5fb1167 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e78416ceb38243f5bfeb8df25196d495 = $(`<div id="html_e78416ceb38243f5bfeb8df25196d495" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_834b4ec13ace4fc7999f83f2b5fb1167.setContent(html_e78416ceb38243f5bfeb8df25196d495);
+        
+
+        marker_eed8dad10cf94da1a952b27c17e48c0f.bindPopup(popup_834b4ec13ace4fc7999f83f2b5fb1167)
+        ;
+
+        
+    
+    
+            var marker_ff762f34008d430d9ea10ecdc52435ee = L.marker(
+                [41.419899, -122.2009964],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_94dff0dd71354590a338a790bc80fbb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff762f34008d430d9ea10ecdc52435ee.setIcon(icon_94dff0dd71354590a338a790bc80fbb9);
+        
+    
+        var popup_29d5fc042c9e4c5aa9b08aca7807ab62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d8c17c7b0a44493bd1b61d44b335f38 = $(`<div id="html_2d8c17c7b0a44493bd1b61d44b335f38" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_29d5fc042c9e4c5aa9b08aca7807ab62.setContent(html_2d8c17c7b0a44493bd1b61d44b335f38);
+        
+
+        marker_ff762f34008d430d9ea10ecdc52435ee.bindPopup(popup_29d5fc042c9e4c5aa9b08aca7807ab62)
+        ;
+
+        
+    
+    
+            var marker_16f3ed487e93434e90124d6476b194d3 = L.marker(
+                [41.1778984, -121.4410019],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_7e6779c1c4bf42dbbcd0cc9262527ec3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16f3ed487e93434e90124d6476b194d3.setIcon(icon_7e6779c1c4bf42dbbcd0cc9262527ec3);
+        
+    
+        var popup_778c5d1ec85c41a4808ec0fe9221654b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_377f3be8fe324db89724511509519176 = $(`<div id="html_377f3be8fe324db89724511509519176" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_778c5d1ec85c41a4808ec0fe9221654b.setContent(html_377f3be8fe324db89724511509519176);
+        
+
+        marker_16f3ed487e93434e90124d6476b194d3.bindPopup(popup_778c5d1ec85c41a4808ec0fe9221654b)
+        ;
+
+        
+    
+    
+            var marker_5818dc4e690e4c7c841c38d968ee7fc0 = L.marker(
+                [40.9548988, -121.3610001],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_068556c820d342829c7c91e1dcccd0cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5818dc4e690e4c7c841c38d968ee7fc0.setIcon(icon_068556c820d342829c7c91e1dcccd0cd);
+        
+    
+        var popup_96b892535220451cb78ec59d80197ff6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f475da0a8ee498fbdf5094946b78919 = $(`<div id="html_2f475da0a8ee498fbdf5094946b78919" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_96b892535220451cb78ec59d80197ff6.setContent(html_2f475da0a8ee498fbdf5094946b78919);
+        
+
+        marker_5818dc4e690e4c7c841c38d968ee7fc0.bindPopup(popup_96b892535220451cb78ec59d80197ff6)
+        ;
+
+        
+    
+    
+            var marker_da8647ea0fdc49e2833ab0435310bda1 = L.marker(
+                [40.7798996, -121.6009979],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_f0017fec8e9f4d4b96c43d415e78f648 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da8647ea0fdc49e2833ab0435310bda1.setIcon(icon_f0017fec8e9f4d4b96c43d415e78f648);
+        
+    
+        var popup_b946488a19834c95bbf42437e3dbd986 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a3604f2baba4ed8ac70654820b18ecd = $(`<div id="html_8a3604f2baba4ed8ac70654820b18ecd" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_b946488a19834c95bbf42437e3dbd986.setContent(html_8a3604f2baba4ed8ac70654820b18ecd);
+        
+
+        marker_da8647ea0fdc49e2833ab0435310bda1.bindPopup(popup_b946488a19834c95bbf42437e3dbd986)
+        ;
+
+        
+    
+    
+            var marker_c4005fc01a9d44f88ce6c09e47b478dd = L.marker(
+                [40.6799011, -121.5510025],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_fb2e44b10e5345f48cc68a2e80eba2b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4005fc01a9d44f88ce6c09e47b478dd.setIcon(icon_fb2e44b10e5345f48cc68a2e80eba2b5);
+        
+    
+        var popup_4d4422914cf04baf8b02e266ed2676ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38c23e2052cb4c82888a0d8b71eeca4c = $(`<div id="html_38c23e2052cb4c82888a0d8b71eeca4c" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_4d4422914cf04baf8b02e266ed2676ff.setContent(html_38c23e2052cb4c82888a0d8b71eeca4c);
+        
+
+        marker_c4005fc01a9d44f88ce6c09e47b478dd.bindPopup(popup_4d4422914cf04baf8b02e266ed2676ff)
+        ;
+
+        
+    
+    
+            var marker_5db03783910b47a2ba939e6fedf030d7 = L.marker(
+                [40.6299019, -120.8310013],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_b275454374e34886876622fc60b7a9be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5db03783910b47a2ba939e6fedf030d7.setIcon(icon_b275454374e34886876622fc60b7a9be);
+        
+    
+        var popup_13d1bc0f74f749c2b47695994892028c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_408642d93ea843c18b52451e3f09a4ea = $(`<div id="html_408642d93ea843c18b52451e3f09a4ea" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_13d1bc0f74f749c2b47695994892028c.setContent(html_408642d93ea843c18b52451e3f09a4ea);
+        
+
+        marker_5db03783910b47a2ba939e6fedf030d7.bindPopup(popup_13d1bc0f74f749c2b47695994892028c)
+        ;
+
+        
+    
+    
+            var marker_5913fd873b1c4370931047184041fdb0 = L.marker(
+                [40.4919014, -121.5009995],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_654cb2987eeb4441a5c814a61c6f51e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5913fd873b1c4370931047184041fdb0.setIcon(icon_654cb2987eeb4441a5c814a61c6f51e5);
+        
+    
+        var popup_08e449a426944f4699d852bfa5fb98f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0843744ec8764269946da0899e73565d = $(`<div id="html_0843744ec8764269946da0899e73565d" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_08e449a426944f4699d852bfa5fb98f7.setContent(html_0843744ec8764269946da0899e73565d);
+        
+
+        marker_5913fd873b1c4370931047184041fdb0.bindPopup(popup_08e449a426944f4699d852bfa5fb98f7)
+        ;
+
+        
+    
+    
+            var marker_ae7bcda9eb1b4cf69eadc6ee66e177d4 = L.marker(
+                [38.9698982, -122.7710037],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_0eb28fbfb7de4c7bbbd0e85646ef004d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae7bcda9eb1b4cf69eadc6ee66e177d4.setIcon(icon_0eb28fbfb7de4c7bbbd0e85646ef004d);
+        
+    
+        var popup_936c2c4f98614703a8b043b6d46c6bed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1346f8fd4302490bbc052908c62f730f = $(`<div id="html_1346f8fd4302490bbc052908c62f730f" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_936c2c4f98614703a8b043b6d46c6bed.setContent(html_1346f8fd4302490bbc052908c62f730f);
+        
+
+        marker_ae7bcda9eb1b4cf69eadc6ee66e177d4.bindPopup(popup_936c2c4f98614703a8b043b6d46c6bed)
+        ;
+
+        
+    
+    
+            var marker_47bcc4daa56d47c9ba425da94777fe6b = L.marker(
+                [39.3749008, -119.7210007],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_0cbb9b6322954f7a806e9dcc7cc3e7d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47bcc4daa56d47c9ba425da94777fe6b.setIcon(icon_0cbb9b6322954f7a806e9dcc7cc3e7d9);
+        
+    
+        var popup_b52dd889f11c4f4fbe7971724c978650 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f773a53713d84229b0aadb8e9b34f178 = $(`<div id="html_f773a53713d84229b0aadb8e9b34f178" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_b52dd889f11c4f4fbe7971724c978650.setContent(html_f773a53713d84229b0aadb8e9b34f178);
+        
+
+        marker_47bcc4daa56d47c9ba425da94777fe6b.bindPopup(popup_b52dd889f11c4f4fbe7971724c978650)
+        ;
+
+        
+    
+    
+            var marker_81f8e69e4b87448f942a6e1c11d76f7e = L.marker(
+                [39.6500015, -107.0309982],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_d11776ac35b54a8b8f3b641710066a4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81f8e69e4b87448f942a6e1c11d76f7e.setIcon(icon_d11776ac35b54a8b8f3b641710066a4e);
+        
+    
+        var popup_7f98c4f50dd64b42bcc712444cd394fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_832454513f654d85b42dc8d91f738973 = $(`<div id="html_832454513f654d85b42dc8d91f738973" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_7f98c4f50dd64b42bcc712444cd394fb.setContent(html_832454513f654d85b42dc8d91f738973);
+        
+
+        marker_81f8e69e4b87448f942a6e1c11d76f7e.bindPopup(popup_7f98c4f50dd64b42bcc712444cd394fb)
+        ;
+
+        
+    
+    
+            var marker_458ee6cddc0d41f29022dc0becce35d1 = L.marker(
+                [37.9999008, -119.0309982],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_23a1ea2089e44739a03a56cacaa433dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_458ee6cddc0d41f29022dc0becce35d1.setIcon(icon_23a1ea2089e44739a03a56cacaa433dc);
+        
+    
+        var popup_492a10bbe20845978094f6aafc0bd4c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c015297ba0d492c9b476fd206a3d23b = $(`<div id="html_1c015297ba0d492c9b476fd206a3d23b" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_492a10bbe20845978094f6aafc0bd4c0.setContent(html_1c015297ba0d492c9b476fd206a3d23b);
+        
+
+        marker_458ee6cddc0d41f29022dc0becce35d1.bindPopup(popup_492a10bbe20845978094f6aafc0bd4c0)
+        ;
+
+        
+    
+    
+            var marker_17a33c968b494b91ac11bac718612555 = L.marker(
+                [38.9700012, -112.5009995],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_c6db92caf2f6442998ea73fad5cc570f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_17a33c968b494b91ac11bac718612555.setIcon(icon_c6db92caf2f6442998ea73fad5cc570f);
+        
+    
+        var popup_21c09603c5944796a7e349d38bafadbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a44f3ab1d4f463289ab511be24a781e = $(`<div id="html_4a44f3ab1d4f463289ab511be24a781e" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_21c09603c5944796a7e349d38bafadbe.setContent(html_4a44f3ab1d4f463289ab511be24a781e);
+        
+
+        marker_17a33c968b494b91ac11bac718612555.bindPopup(popup_21c09603c5944796a7e349d38bafadbe)
+        ;
+
+        
+    
+    
+            var marker_6f031e0275244d3d9ae900ba8d6e9875 = L.marker(
+                [37.8799019, -119.0009995],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_d7469ca9b72c46e1a98577f31bb226dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f031e0275244d3d9ae900ba8d6e9875.setIcon(icon_d7469ca9b72c46e1a98577f31bb226dc);
+        
+    
+        var popup_5ad865b258394478b5bcd8da12cdd9ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f957c477f6e44e7b871099bc107a5e8 = $(`<div id="html_5f957c477f6e44e7b871099bc107a5e8" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_5ad865b258394478b5bcd8da12cdd9ea.setContent(html_5f957c477f6e44e7b871099bc107a5e8);
+        
+
+        marker_6f031e0275244d3d9ae900ba8d6e9875.bindPopup(popup_5ad865b258394478b5bcd8da12cdd9ea)
+        ;
+
+        
+    
+    
+            var marker_b857e17d3ea549d68ecb35fb369b3cf8 = L.marker(
+                [37.6918983, -119.0210037],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_13030ca1f2b04cf4acdbd89a48fec711 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b857e17d3ea549d68ecb35fb369b3cf8.setIcon(icon_13030ca1f2b04cf4acdbd89a48fec711);
+        
+    
+        var popup_1f94cfc35d874e6298f6d97b3424058a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dc960b97b7b423f960895d98630c532 = $(`<div id="html_6dc960b97b7b423f960895d98630c532" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_1f94cfc35d874e6298f6d97b3424058a.setContent(html_6dc960b97b7b423f960895d98630c532);
+        
+
+        marker_b857e17d3ea549d68ecb35fb369b3cf8.bindPopup(popup_1f94cfc35d874e6298f6d97b3424058a)
+        ;
+
+        
+    
+    
+            var marker_630c7e0eb9e14e53afa489f48d196a3f = L.marker(
+                [37.6999016, -118.8710022],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_e67069a94dd14f33af7a1a550f2377eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_630c7e0eb9e14e53afa489f48d196a3f.setIcon(icon_e67069a94dd14f33af7a1a550f2377eb);
+        
+    
+        var popup_b67ddc58bdbc49fbac02568d4de41941 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30389567c0d8426e88219483125754b1 = $(`<div id="html_30389567c0d8426e88219483125754b1" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_b67ddc58bdbc49fbac02568d4de41941.setContent(html_30389567c0d8426e88219483125754b1);
+        
+
+        marker_630c7e0eb9e14e53afa489f48d196a3f.bindPopup(popup_b67ddc58bdbc49fbac02568d4de41941)
+        ;
+
+        
+    
+    
+            var marker_9799e20f7ea94fdb9dc26ca6b10f575a = L.marker(
+                [37.5798988, -119.0510025],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_e08fcdf436e2418bba0d5fea3f0bc908 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9799e20f7ea94fdb9dc26ca6b10f575a.setIcon(icon_e08fcdf436e2418bba0d5fea3f0bc908);
+        
+    
+        var popup_69c4baba8c5245a2b383e125600908f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c430080e45f445a48271d25959df11b6 = $(`<div id="html_c430080e45f445a48271d25959df11b6" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_69c4baba8c5245a2b383e125600908f1.setContent(html_c430080e45f445a48271d25959df11b6);
+        
+
+        marker_9799e20f7ea94fdb9dc26ca6b10f575a.bindPopup(popup_69c4baba8c5245a2b383e125600908f1)
+        ;
+
+        
+    
+    
+            var marker_868f5e63a94141418f2daac61b04d321 = L.marker(
+                [37.0199013, -117.4509964],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_52c1bcb6acc243a4a32eff8631b0d24b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_868f5e63a94141418f2daac61b04d321.setIcon(icon_52c1bcb6acc243a4a32eff8631b0d24b);
+        
+    
+        var popup_54af7c08ee89476f940cd29a70a9c369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_228b7a91355745bfb47d98b30adf48ab = $(`<div id="html_228b7a91355745bfb47d98b30adf48ab" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_54af7c08ee89476f940cd29a70a9c369.setContent(html_228b7a91355745bfb47d98b30adf48ab);
+        
+
+        marker_868f5e63a94141418f2daac61b04d321.bindPopup(popup_54af7c08ee89476f940cd29a70a9c369)
+        ;
+
+        
+    
+    
+            var marker_1c51ebea1ac64b608e62c163effe3dd5 = L.marker(
+                [37.5800018, -112.6709976],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_250fbfb957e848448b1baf9e1777e78f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c51ebea1ac64b608e62c163effe3dd5.setIcon(icon_250fbfb957e848448b1baf9e1777e78f);
+        
+    
+        var popup_3ff0c75219974cd98cf60867560ba711 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6794e80291f4866a7d30fe994d93f82 = $(`<div id="html_e6794e80291f4866a7d30fe994d93f82" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_3ff0c75219974cd98cf60867560ba711.setContent(html_e6794e80291f4866a7d30fe994d93f82);
+        
+
+        marker_1c51ebea1ac64b608e62c163effe3dd5.bindPopup(popup_3ff0c75219974cd98cf60867560ba711)
+        ;
+
+        
+    
+    
+            var marker_f0dd5607f9f448c2811a75e768ca336d = L.marker(
+                [37.257, -113.6210022],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_a7e93d9a91a64faa8228410af53c4a60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0dd5607f9f448c2811a75e768ca336d.setIcon(icon_a7e93d9a91a64faa8228410af53c4a60);
+        
+    
+        var popup_34e7092e4afd41e08efff1eb657b6fc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcdcb1c08ed54d5ba9a3c2789ab1405c = $(`<div id="html_fcdcb1c08ed54d5ba9a3c2789ab1405c" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_34e7092e4afd41e08efff1eb657b6fc2.setContent(html_fcdcb1c08ed54d5ba9a3c2789ab1405c);
+        
+
+        marker_f0dd5607f9f448c2811a75e768ca336d.bindPopup(popup_34e7092e4afd41e08efff1eb657b6fc2)
+        ;
+
+        
+    
+    
+            var marker_2ebeffbcf178447a90d5e079ba6d04ad = L.marker(
+                [37.3279991, -112.401001],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_245a43005a7a47d7adc54e665b28ffd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ebeffbcf178447a90d5e079ba6d04ad.setIcon(icon_245a43005a7a47d7adc54e665b28ffd3);
+        
+    
+        var popup_b95668d52ce149728433a0065e7b32b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_364799a8cf02467ab4dc75eabca04393 = $(`<div id="html_364799a8cf02467ab4dc75eabca04393" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_b95668d52ce149728433a0065e7b32b7.setContent(html_364799a8cf02467ab4dc75eabca04393);
+        
+
+        marker_2ebeffbcf178447a90d5e079ba6d04ad.bindPopup(popup_b95668d52ce149728433a0065e7b32b7)
+        ;
+
+        
+    
+    
+            var marker_f15456a4ac39426a9350ceb218ca98c1 = L.marker(
+                [36.3578987, -118.3209991],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_7c203d8798c9488a9b9419e6ee3497f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f15456a4ac39426a9350ceb218ca98c1.setIcon(icon_7c203d8798c9488a9b9419e6ee3497f6);
+        
+    
+        var popup_0781b7e49afa4219b87c1360349fa387 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d33e08da5b540d8a76d985147590133 = $(`<div id="html_9d33e08da5b540d8a76d985147590133" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_0781b7e49afa4219b87c1360349fa387.setContent(html_9d33e08da5b540d8a76d985147590133);
+        
+
+        marker_f15456a4ac39426a9350ceb218ca98c1.bindPopup(popup_0781b7e49afa4219b87c1360349fa387)
+        ;
+
+        
+    
+    
+            var marker_f0c28f92d0274ef2811c5628ac24ecf1 = L.marker(
+                [36.0298996, -117.8209991],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_2e3111b9fc0e4f8ab38f2d77ddf9282a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0c28f92d0274ef2811c5628ac24ecf1.setIcon(icon_2e3111b9fc0e4f8ab38f2d77ddf9282a);
+        
+    
+        var popup_5311ebc6297b4741ba433eae9545f0a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fe1805686fd4dc7a8cd8bad6b41fc1d = $(`<div id="html_2fe1805686fd4dc7a8cd8bad6b41fc1d" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_5311ebc6297b4741ba433eae9545f0a8.setContent(html_2fe1805686fd4dc7a8cd8bad6b41fc1d);
+        
+
+        marker_f0c28f92d0274ef2811c5628ac24ecf1.bindPopup(popup_5311ebc6297b4741ba433eae9545f0a8)
+        ;
+
+        
+    
+    
+            var marker_2de9273e783c47c683a515f200dbd943 = L.marker(
+                [36.3800011, -113.1309967],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_794e90c54c924095bec4fd124ba3a67d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2de9273e783c47c683a515f200dbd943.setIcon(icon_794e90c54c924095bec4fd124ba3a67d);
+        
+    
+        var popup_6524d245849c4b9ba2655dea95429b60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_022a9f9582a44ff58a8d9c7c81af1554 = $(`<div id="html_022a9f9582a44ff58a8d9c7c81af1554" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_6524d245849c4b9ba2655dea95429b60.setContent(html_022a9f9582a44ff58a8d9c7c81af1554);
+        
+
+        marker_2de9273e783c47c683a515f200dbd943.bindPopup(popup_6524d245849c4b9ba2655dea95429b60)
+        ;
+
+        
+    
+    
+            var marker_5e986613e17844aa92ff6fde5af732c7 = L.marker(
+                [34.75, -116.6210022],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_1c0946d6aaa04a5aa10a6b2826b2eeec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e986613e17844aa92ff6fde5af732c7.setIcon(icon_1c0946d6aaa04a5aa10a6b2826b2eeec);
+        
+    
+        var popup_5ac17c35494f45d9bf15d011659184c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3764ea5987e45c18daf5679b164ad24 = $(`<div id="html_a3764ea5987e45c18daf5679b164ad24" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_5ac17c35494f45d9bf15d011659184c0.setContent(html_a3764ea5987e45c18daf5679b164ad24);
+        
+
+        marker_5e986613e17844aa92ff6fde5af732c7.bindPopup(popup_5ac17c35494f45d9bf15d011659184c0)
+        ;
+
+        
+    
+    
+            var marker_7ea6574af83d4adfb2708f6851ef4380 = L.marker(
+                [35.8699989, -106.5709991],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_ef5e2cc4933542a497327005d3fa8818 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ea6574af83d4adfb2708f6851ef4380.setIcon(icon_ef5e2cc4933542a497327005d3fa8818);
+        
+    
+        var popup_8a927433884a47158efb0cdbfe3e8227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0805d03f59ba4d0e9c061e3c4bf4dae9 = $(`<div id="html_0805d03f59ba4d0e9c061e3c4bf4dae9" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_8a927433884a47158efb0cdbfe3e8227.setContent(html_0805d03f59ba4d0e9c061e3c4bf4dae9);
+        
+
+        marker_7ea6574af83d4adfb2708f6851ef4380.bindPopup(popup_8a927433884a47158efb0cdbfe3e8227)
+        ;
+
+        
+    
+    
+            var marker_425d9b68977d40a981c1ee01a9679d65 = L.marker(
+                [35.3699989, -111.5009995],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_84b458bf76474bf087d2d70ccf17f2b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_425d9b68977d40a981c1ee01a9679d65.setIcon(icon_84b458bf76474bf087d2d70ccf17f2b1);
+        
+    
+        var popup_aa3ffb50d7014f958beb110505626688 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79d974e56b4c4f4fb08dab85a5b9faf3 = $(`<div id="html_79d974e56b4c4f4fb08dab85a5b9faf3" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_aa3ffb50d7014f958beb110505626688.setContent(html_79d974e56b4c4f4fb08dab85a5b9faf3);
+        
+
+        marker_425d9b68977d40a981c1ee01a9679d65.bindPopup(popup_aa3ffb50d7014f958beb110505626688)
+        ;
+
+        
+    
+    
+            var marker_f547d9fbb458432184167917394411a9 = L.marker(
+                [34.5499992, -115.7809982],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_5c22f08afaad48a4b2c06f79e0a58e9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f547d9fbb458432184167917394411a9.setIcon(icon_5c22f08afaad48a4b2c06f79e0a58e9f);
+        
+    
+        var popup_c553f9838e164bfaa092b7fe01563770 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4394f8776f740f4818e9abd3e6f1805 = $(`<div id="html_f4394f8776f740f4818e9abd3e6f1805" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_c553f9838e164bfaa092b7fe01563770.setContent(html_f4394f8776f740f4818e9abd3e6f1805);
+        
+
+        marker_f547d9fbb458432184167917394411a9.bindPopup(popup_c553f9838e164bfaa092b7fe01563770)
+        ;
+
+        
+    
+    
+            var marker_76ad6cf3141c4b30981ed853c53af1d8 = L.marker(
+                [34.7999992, -108.0009995],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_3e9883f4c56d4a2d8518b42f654b86dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_76ad6cf3141c4b30981ed853c53af1d8.setIcon(icon_3e9883f4c56d4a2d8518b42f654b86dd);
+        
+    
+        var popup_7972346168224e95b5ef8e8bf6230beb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bb269ca071d4ef09a7a4c5d501b5892 = $(`<div id="html_9bb269ca071d4ef09a7a4c5d501b5892" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_7972346168224e95b5ef8e8bf6230beb.setContent(html_9bb269ca071d4ef09a7a4c5d501b5892);
+        
+
+        marker_76ad6cf3141c4b30981ed853c53af1d8.bindPopup(popup_7972346168224e95b5ef8e8bf6230beb)
+        ;
+
+        
+    
+    
+            var marker_b350fc27a08745b0b1373b85ccbf69ed = L.marker(
+                [33.7801018, -105.9309998],
+                {}
+            ).addTo(feature_group_18d095520c0942e390ec8c856a1e62a8);
+        
+    
+            var icon_87f01253a8ec44deb60720746bbd7ad1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "fire": "red", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b350fc27a08745b0b1373b85ccbf69ed.setIcon(icon_87f01253a8ec44deb60720746bbd7ad1);
+        
+    
+        var popup_822dc9072cfa47998dbe83d7f98127d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca46e28ab43e45cfb29834158bd6c00e = $(`<div id="html_ca46e28ab43e45cfb29834158bd6c00e" style="width: 100.0%; height: 100.0%;">['Baker', 'Glacier Peak', 'Rainier', 'St. Helens', 'Adams', 'West Crater', 'Indian Heaven', 'Hood', 'Jefferson', 'Blue Lake Crater', 'Sand Mountain Field', 'Washington', 'Belknap', 'North Sister Field', 'South Sister', 'Bachelor', 'Newberry Volcano', 'Davis Lake', 'Devils Garden', 'Cinnamon Butte', 'Squaw Ridge Lava Field', 'Four Craters Lava Field', 'Crater Lake', 'Yellowstone', 'Diamond Craters', 'Jordan Craters', 'Saddle Butte', 'Craters of the Moon', 'Hell Half Acre', 'Shoshone Lava Field', 'Jackies Butte', 'Medicine Lake', 'Wapi Lava Field', 'Shasta', 'Brushy Butte', 'Big Cave', 'Twin Buttes', 'Tumble Buttes', 'Eagle Lake Field', 'Lassen Volc Center', 'Clear Lake', 'Steamboat Springs', 'Dotsero', 'Mono Lake Volc Field', 'Black Rock Desert', 'Mono Craters', 'Inyo Craters', 'Long Valley', 'Red Cones', 'Ubehebe Craters', 'Markagunt Plateau', 'Santa Clara', 'Bald Knoll', 'Golden Trout Creek', 'Coso Volc Field', 'Uinkaret Field', 'Lavic Lake', 'Valles Caldera', 'Sunset Crater', 'Amboy', 'Zuni-Bandera', 'Carrizozo']</div>`)[0];
+            popup_822dc9072cfa47998dbe83d7f98127d5.setContent(html_ca46e28ab43e45cfb29834158bd6c00e);
+        
+
+        marker_b350fc27a08745b0b1373b85ccbf69ed.bindPopup(popup_822dc9072cfa47998dbe83d7f98127d5)
         ;
 
         
