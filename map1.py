@@ -53,4 +53,4 @@ map.add_child(fg)
 # Layer controller (THIS MUST BE AFTER LINE 48 or it wont find the layers)
 map.add_child(folium.LayerControl())
 
-map.save('Map1.html')
+map.save('index.html')
